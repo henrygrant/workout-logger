@@ -55,7 +55,7 @@ async function processLines() {
       reps: parseInt(reps),
       distance_m: parseFloat(distance),
       duration_s: parseFloat(duration),
-      user: "869yf2gi4o2sk43",
+      user: "", // add userid
       created_imported: date.replace(" +0000", ".000Z"),
     };
     console.log(toInsert);
